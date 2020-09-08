@@ -7,7 +7,7 @@ function newPag(tarefa) {
     tarefa.forEach (tarefa => {
         
     cardsTarefas += 
-    `<div class="card" style="width: 18rem;">
+    `<div class="card m-5" style="width: 18rem;">
       <div class="card-body">
       <h5 class="card-title">${tarefa.titulo}</h5>
       <p class="card-text">${tarefa.descricao}</p>
@@ -43,7 +43,7 @@ function newPag(tarefa) {
             </form>
         </div>
     </div>
-    <div id="todoCard">
+    <div id="todoCard" class="d-flex mt justify-content-around">
         <!-- Aqui entram os cards de TODO!-->
         ${cardsTarefas}
     </div>
