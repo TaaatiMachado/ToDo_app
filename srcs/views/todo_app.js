@@ -1,7 +1,5 @@
 function newPag(tarefa) {
-
-    //para cada tarefa recebida:
-        //criar card com título e 
+    
     let cardsTarefas = '';
     
     tarefa.forEach (tarefa => {
@@ -11,6 +9,10 @@ function newPag(tarefa) {
       <div class="card-body">
       <h5 class="card-title">${tarefa.titulo}</h5>
       <p class="card-text">${tarefa.descricao}</p>
+      </div>
+      <div class="m-3 d-flex justify-content-end">
+      <button type="button" class="btn btn-secondary btn-sm mr-1">Editar</button>
+      <button type="button" class="btn btn-secondary btn-sm">Arquivar</button>
       </div>
     </div>`
     
