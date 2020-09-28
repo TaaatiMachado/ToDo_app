@@ -19,10 +19,10 @@
     "heroku": "^7.43.2",
     "sqlite3": "^5.0.0"
   },
-  "engines": {
-    "node": "14.x"
-  },
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
